@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    padding: 0px 16px;
+    height: 62px;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    
+}
+.navbar .bar i{
+    height: 20px;
+    width: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 8px;
+}
+.navbar .logo img{
+    width: 90px;
+    height: 56px;
+    padding-left: 5px;
+    padding-right: 16px;
+    position: relative;
+}
+.form input{
+    width: 540px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.navbar button i{
+    height: 30px;
+    width: 30px;
+    padding-left:0px ;
+    font-weight: bold;
+    font-size: x-large;
+  
+}
+.navbar button {
+    border-radius: 10px;
+   
+}
+.navbar .microphone i{
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-right: 34px;
+}
+.navbar .video i{
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 300px;
+    margin-top: 7px;
+}
+.navbar .bell i{
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.navbar .account p{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 30px;
+    padding-top: 7px;
+    background-color: coral;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.sidebar{
+    height: 600px;
+    width: 350px;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+
+}
+.sidebar:hover{
+    overflow: scroll;
+}
+.sidebar i{
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.sidebar span{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.sc{
+    margin-left: 12px;
+    
+}
+.sidebar .line{
+    height: 30px;
+    width: 350px;
+    border-bottom:  2px solid black;
+}
+#copy{
+    color: black;
+    opacity: 0.5;
+    font-weight: 50px;
+}
+.home:hover{
+    background-color: azure;
+}
+.shorts:hover{
+    background-color: azure;
+}
+.subscribe:hover{
+    background-color: azure;
+}
+.library:hover{
+    background-color: azure;
+}
+.history:hover{
+    background-color: azure;
+}
+.watch-later:hover{
+    background-color: azure;
+}
+.liked:hover{
+    background-color: azure;
+}
+.settings:hover{
+    background-color: azure;
+}
+.report:hover{
+    background-color: azure;
+}
+.help:hover{
+    background-color: azure;
+}
+.feedback:hover{
+    background-color: azure;
+}
+.container{
+    background-color: white;
+    padding-left: 26%;
+}
+.container h2{
+    margin-top: 5px;
+}
+.container .lists{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.container .lists .items{
+    min-width: 150px;
+    width: 160px;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.container .lists .items img{
+    padding-top: 7px;
+    border-radius: 4px;
+}
+.container .lists .items h4{
+  padding-top: 7px;
+  font-weight: 600;
+  font-size: larger;
+}
+.container .lists .items p{
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: medium;
+}
+
+
+
